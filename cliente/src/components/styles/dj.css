@@ -1,0 +1,99 @@
+
+
+.DJ {
+    width: 400px;
+    margin-left: 2%;
+    margin-top:2%;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0,.3);
+    background-color: white;
+    border-radius: 5px;
+}
+
+@media (max-width:800px){
+    .DJ {
+        width: 80%;
+    }
+}
+
+.DJ .nome {
+    width: 97.5%;
+    height: 30px;
+    color:white;
+    font-size: 13pt;
+    font-family: Raleway-semibold;
+    padding-top: 6px;
+    padding-left: 10px;
+    background-color:  rgb(194, 58, 58);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.DJ .capa {
+    width:100%;
+    height: 200px;
+}
+
+.DJ .detalhes {
+    margin-top: -5px;
+    width:100%;
+    list-style: none;
+    display: grid;
+    padding-top: 10px;
+    background-color: rgb(184, 176, 176);
+    padding-bottom: 10px;
+    grid-template-columns: 120px 120px 120px;
+}
+
+@media (max-width:600px){
+    .DJ .detalhes {
+        display: grid;
+        grid-template-columns:100%;
+        
+    }
+}
+
+.DJ .detalhes  li {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    font-size: 10pt;
+    margin:7px;
+    flex-direction: row;
+    justify-content: center;
+    font-family: Raleway-semibold;
+    justify-content: center;
+    align-items: center;
+    padding: 7px;
+    border-radius: 10px;
+}
+
+.DJ .detalhes  li img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.DJ  .number {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:98.5%;
+    height: 30px;
+    color:white;
+    text-align: center;
+    font-size: 13pt;
+    font-family: Raleway-semibold;
+    padding-top: 6px;
+    padding-left: 10px;
+    background-color:  rgb(194, 58, 58);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+}
+
+.DJ .number img {
+    width: 20px;
+    height: 20px;
+    margin-left: 10%;
+}
+
+

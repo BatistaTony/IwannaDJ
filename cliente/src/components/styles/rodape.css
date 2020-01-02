@@ -1,0 +1,36 @@
+
+footer {
+    display:flex;
+    flex-direction:column;
+    background-color: #191c03;
+    padding:50px 0;
+    color:white;
+    align-items:center;
+}
+
+footer ul {
+    display: flex;
+    margin-bottom: 25px;
+    list-style: none;
+}
+
+footer ul li {
+    margin-right:10px;
+}
+
+footer ul li a {
+    text-decoration: none;
+}
+
+footer ul li:last-child {
+    margin-right: 0;
+}
+
+footer ul li a  {
+    color:white;
+}
+
+
+footer p {
+    text-align:center;
+}

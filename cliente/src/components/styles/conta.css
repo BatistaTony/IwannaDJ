@@ -1,0 +1,187 @@
+
+.Conta {
+    background: url('/img/IMG_3181.jpg') no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    color:white;
+}
+
+.Conta .cadastro, .login {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: calc(90vh - 70px);
+}
+
+
+
+
+
+
+
+@media (max-width:700px){
+    .Conta .cadastro {
+    height: 150vh;
+}
+}
+
+.cadastro .title, .login .title {
+    margin-top: 3%;
+    font-size: 13pt;
+    font-family: Raleway-semibold;
+
+}
+
+.erro {
+    color:red;
+    margin-top: 2%;
+    font-size: 12pt;
+    font-family: Raleway-semibold;
+
+}
+
+@media (max-width:700px){
+
+    .cadastro .title, .login .title {
+        text-align: center;
+        width: 60%;
+    }
+
+}
+
+.cadastro form, .login form {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 70%;
+    margin-top: 2%;
+}
+
+.login form {
+    grid-template-columns:  auto auto;
+    width: 40%;
+    height: 100px;
+}
+
+@media (max-width:700px){ 
+    .cadastro form, .login form {    
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+        height: calc(100vh - 30px);
+    }
+
+
+}
+
+
+
+@media (max-width:700px){
+    .login form {
+       display: flex;
+       flex-direction: column;
+       flex-wrap: nowrap;
+       width: 100%;
+       align-items: center;
+       justify-content: center;
+       height: calc(60vh - 60px);
+    }
+
+    .login .div_btn  {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+}
+
+.cadastro form .div_ipt, .login form .div_ipt  {
+    width: 250px;
+    height: 60px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cadastro form .div_ipt  h1, .login form .div_ipt  h1 {
+    font-size: 12pt;
+    width: 190px;
+    text-align: left;
+    margin-bottom: 5px;
+    font-family: Raleway-semibold;
+}
+
+.cadastro form .div_ipt .ipt, .login form .div_ipt .ipt {
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    font-family: Raleway-semibold;
+    border:hidden;
+}
+
+
+.cadastro .div_btn, .login .div_btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+@media (max-width:700px){
+    .cadastro .div_btn {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        margin-top: 5%;
+    }
+
+}
+
+
+
+.btn_cad {
+    float: right;
+    margin-top:1%;
+    border:hidden;
+    border-radius: 30px;
+    color:white;
+    background: rgb(194, 58, 58);
+    font-size: 10pt;
+    width: 200px;
+    padding: 15px;
+    transition: 0.5s;
+    margin-left: 10px;
+}
+
+.login {
+    display: flex;
+}
+
+@media (max-width:700px){
+    .btn_cad {
+        padding: 10px;
+    }
+}
+
+.login form .div_ipt  {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.login form div .ipt {
+    width: 250px;
+}
